@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+svg {
+  transition: 300ms ease-in-out;
+}
+
+path {
+  transition: 300ms ease-in-out;
+}
+
+svg:hover path {
+  fill: white;
+}
+
+svg:hover {
+  transform: scale(1.5);
+}
+
+@font-face {
+  font-family: "Circular";
+  src: url("../fonts/Circular/CircularStd-Black.otf");
+}
+@font-face {
+  font-family: "Inter-Regular";
+  src: url("../fonts/Inter/Inter-Regular.ttf");
+}
+@font-face {
+  font-family: "Inter-Medium";
+  src: url("../fonts/Inter/Inter-Medium.ttf");
+}
+@font-face {
+  font-family: "Inter-ExtraBold";
+  src: url("../fonts/Inter/Inter-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "Inter-Bold";
+  src: url("../fonts/Inter/Inter-Bold.ttf");
+}
+
+@layer base {
+  body {
+    @apply font-body text-[18px] leading-8 text-primary;
+  }
+  .h2 {
+    @apply font-headers text-[36px] mb-6 tracking-[10%] uppercase;
+  }
+  .h3 {
+    @apply font-subheaders font-semibold text-[20px] mb-6 leading-[32px];
+  }
+  p {
+    @apply font-body text-[18px] leading-[24px];
+  }
+  .btn {
+    @apply font-bolder text-primary font-medium border-y-2 border-accent;
+  }
+  .btn-sm {
+    @apply h-[48px] px-6 text-sm;
+  }
+  .btn-sm:hover {
+    @apply text-white;
+  }
+  .btn-lg {
+    @apply h-[56px] px-10 text-base;
+  }
+  .btn-link {
+    @apply text-base font-bolder;
+  }
+  .text-gradient {
+    @apply bg-gradient-to-r text-transparent bg-clip-text from-[#212529] to-[#6C757D] text-[18px] font-bolder font-bold hover:from-[#6C757D] hover:to-[#212529];
+  }
+  .section {
+    @apply py-8 lg:py-24 lg:h-screen flex items-center;
+  }
+}

@@ -2,7 +2,6 @@ import React from "react";
 import { InView, useInView } from "react-intersection-observer";
 import { fadeIn } from "../variants";
 import { motion } from "framer-motion";
-import { HiArrowUp } from "react-icons/hi";
 import { Link } from 'react-scroll';
 
 const Event = () => {

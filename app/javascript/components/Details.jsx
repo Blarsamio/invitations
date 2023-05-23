@@ -4,7 +4,7 @@ import { fadeIn } from "../variants";
 import { motion } from "framer-motion";
 import { HiArrowDown } from 'react-icons/hi';
 import { Link } from 'react-scroll';
-import videoBg from '../../assets/images/beau.mp4';
+import videoBg from '../../assets/images/video.mp4';
 
 const Details = () => {
   const [ref, InView] = useInView({

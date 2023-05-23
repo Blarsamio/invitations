@@ -24,7 +24,7 @@
     "src": "../assets/images/about.png"
   },
   "entrypoints/application.css": {
-    "file": "assets/application-68dfbb78.css",
+    "file": "assets/application-4821dc0d.css",
     "isEntry": true,
     "src": "entrypoints/application.css"
   },

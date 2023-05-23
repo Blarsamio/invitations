@@ -10,7 +10,7 @@ module.exports = {
     './app/javascript/components/**/*.js',
     './app/javascript/components/**/*.jsx',
     './app/**/*.{js,jsx,ts,tsx}',
-    '.app/assets/images/*.svg',
+    '.app/assets/images/*.png',
   ],
   theme: {
     fontFamily: {
@@ -35,6 +35,9 @@ module.exports = {
       colors: {
         primary: '#212529',
         accent: '#79264D',
+      },
+      backgroundImage: {
+        about: "url('/Users/lewagonbarcelona/code/Blarsamio/invitation/app/assets/images/about.png')",
       },
     },
   },

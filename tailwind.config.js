@@ -1,40 +1,47 @@
 /** @type {import('tailwindcss').Config} */
-const colors = require('tailwindcss/colors')
-const defaultTheme = require('tailwindcss/defaultTheme')
+const colors = require("tailwindcss/colors");
+const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
   content: [
-    './app/helpers/**/*.rb',
-    './app/assets/stylesheets/**/*.css',
-    './app/views/**/*.{html,html.erb,erb}',
-    './app/javascript/components/**/*.js',
-    './app/javascript/components/**/*.jsx',
-    './app/**/*.{js,jsx,ts,tsx}',
-    '.app/assets/images/*.png',
+    "./app/helpers/**/*.rb",
+    "./app/assets/stylesheets/**/*.css",
+    "./app/views/**/*.{html,html.erb,erb}",
+    "./app/javascript/components/**/*.js",
+    "./app/javascript/components/**/*.jsx",
+    "./app/**/*.{js,jsx,ts,tsx}",
+    ".app/assets/images/*.png",
   ],
   theme: {
     fontFamily: {
-      headers: 'Circular',
-      subheaders: 'Inter-Medium',
-      body: 'Inter-Regular',
-      numbers: 'Inter-ExtraBold',
-      bolder: 'Inter-Bold',
+      headers: "Circular",
+      subheaders: "Inter-Medium",
+      body: "Inter-Regular",
+      numbers: "Inter-ExtraBold",
+      bolder: "Inter-Bold",
     },
     container: {
       padding: {
-        DEFAULT: '15px',
+        DEFAULT: "15px",
       },
     },
     screens: {
-      sm: '640px',
-      md: '768px',
-      lg: '960px',
-      xl: '1200px',
+      sm: "640px",
+      md: "768px",
+      lg: "960px",
+      xl: "1200px",
     },
     extend: {
       colors: {
-        primary: '#212529',
-        accent: '#79264D',
+        primary: "#212529",
+        accent: "#79264D",
+      },
+      backgroundImage: {
+        beau: "url('/Users/lewagonbarcelona/code/Blarsamio/invitation/app/assets/images/beau.png')",
+        about: "url('/Users/lewagonbarcelona/code/Blarsamio/invitation/app/assets/images/about.png')",
+      },
+      Image: {
+        beau: "url('/Users/lewagonbarcelona/code/Blarsamio/invitation/app/assets/images/beau.png')",
       },
     },
   },
@@ -42,7 +49,7 @@ module.exports = {
     aspectRatio: false,
   },
   plugins: [
-    require('@tailwindcss/typography'),
-    require('@tailwindcss/aspect-ratio'),
+    require("@tailwindcss/typography"),
+    require("@tailwindcss/aspect-ratio"),
   ],
-}
+};

@@ -11,14 +11,4 @@ export default defineConfig({
     StimulusHMR(),
     FullReload(["config/routes.rb", "app/views/**/*"], { delay: 300 }),
   ],
-  // build: {
-  //   manifest: true,
-  //   rollupOptions: {
-  //     output: {
-  //       format: 'es',
-  //       strict: false,
-  //       dir: 'dist/'
-  //     }
-  //   }
-  // },
 })

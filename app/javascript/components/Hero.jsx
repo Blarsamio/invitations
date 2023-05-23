@@ -17,18 +17,18 @@ const Hero = () => {
           initial='hidden'
           whileInView={'show'}
           viewport={{ once: false, amount: 0.3 }}
-          className='flex-1 bg-[url("https://i.imgur.com/wVfljpb.png")] bg-contain bg-no-repeat h-[440px] bg-top'></motion.div>
+          className='flex-1 bg-about bg-contain bg-no-repeat h-[440px] bg-top'></motion.div>
         <motion.div
           variants={fadeIn('left', 0.3)}
           initial='hidden'
           whileInView={'show'}
           viewport={{ once: false, amount: 0.3 }}
           className='flex-1 flex flex-col'>
-          <h2 className='h2 text-accent text-center leading-tight'>Hello, my name is Darkwing Duck</h2>
+          <h2 className='h2 text-accent text-center leading-tight'>Cuack! <br />I mean... hello!</h2>
           <h3 className='h3 text-accent text-center font-body'>You're hereby invited to the <br />screening of a potentially <br />disturbing movie, <br />scroll down for more details!</h3>
           <div className='down-b cursor-pointer ease-in-out duration-150'>
             <Link
-              to="event"
+              to="details"
               spy={true}
               smooth={true}
               duration={500}

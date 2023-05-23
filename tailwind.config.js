@@ -36,9 +36,6 @@ module.exports = {
         primary: '#212529',
         accent: '#79264D',
       },
-      backgroundImage: {
-        about: "url('/Users/lewagonbarcelona/code/Blarsamio/invitation/app/assets/images/about.png')",
-      },
     },
   },
   corePlugins: {

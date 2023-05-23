@@ -17,7 +17,7 @@ const Hero = () => {
           initial='hidden'
           whileInView={'show'}
           viewport={{ once: false, amount: 0.3 }}
-          className='flex-1 bg-about bg-contain bg-no-repeat h-[440px] bg-top'></motion.div>
+          className='flex-1 bg-[url("https://i.imgur.com/wVfljpb.png")] bg-contain bg-no-repeat h-[440px] bg-top'></motion.div>
         <motion.div
           variants={fadeIn('left', 0.3)}
           initial='hidden'

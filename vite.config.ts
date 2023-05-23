@@ -11,20 +11,14 @@ export default defineConfig({
     StimulusHMR(),
     FullReload(["config/routes.rb", "app/views/**/*"], { delay: 300 }),
   ],
-  build: {
-    manifest: true,
-    rollupOptions: {
-      output: {
-        format: 'es',
-        strict: false,
-        dir: 'dist/'
-      }
-    }
-  },
-  resolve: {
-    alias: {
-      '@': resolve(__dirname, './app'),
-      '@images': resolve(__dirname, './app/assets/images'),
-    },
-  },
+  // build: {
+  //   manifest: true,
+  //   rollupOptions: {
+  //     output: {
+  //       format: 'es',
+  //       strict: false,
+  //       dir: 'dist/'
+  //     }
+  //   }
+  // },
 })

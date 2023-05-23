@@ -40,9 +40,6 @@ module.exports = {
         beau: "url('/Users/lewagonbarcelona/code/Blarsamio/invitation/app/assets/images/beau.png')",
         about: "url('/Users/lewagonbarcelona/code/Blarsamio/invitation/app/assets/images/about.png')",
       },
-      Image: {
-        beau: "url('/Users/lewagonbarcelona/code/Blarsamio/invitation/app/assets/images/beau.png')",
-      },
     },
   },
   corePlugins: {

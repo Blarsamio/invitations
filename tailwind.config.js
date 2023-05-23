@@ -36,11 +36,6 @@ module.exports = {
         primary: '#212529',
         accent: '#79264D',
       },
-      backgroundImage: {
-        site: "url('/Users/lewagonbarcelona/code/portfolio/my_vite_app/app/assets/images/site-bg.jpg')",
-        about: "url('/Users/lewagonbarcelona/code/Blarsamio/invitation/app/assets/images/about.png')",
-        services: "url('/Users/lewagonbarcelona/code/portfolio/my_vite_app/app/assets/images/services.png')",
-      },
     },
   },
   corePlugins: {

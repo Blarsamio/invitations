@@ -1,0 +1,36 @@
+{
+  "../assets/fonts/Circular/CircularStd-Black.otf": {
+    "file": "assets/CircularStd-Black-52659624.otf",
+    "src": "../assets/fonts/Circular/CircularStd-Black.otf"
+  },
+  "../assets/fonts/Inter/Inter-Bold.ttf": {
+    "file": "assets/Inter-Bold-d597e753.ttf",
+    "src": "../assets/fonts/Inter/Inter-Bold.ttf"
+  },
+  "../assets/fonts/Inter/Inter-ExtraBold.ttf": {
+    "file": "assets/Inter-ExtraBold-d3f3fb62.ttf",
+    "src": "../assets/fonts/Inter/Inter-ExtraBold.ttf"
+  },
+  "../assets/fonts/Inter/Inter-Medium.ttf": {
+    "file": "assets/Inter-Medium-5249ae5f.ttf",
+    "src": "../assets/fonts/Inter/Inter-Medium.ttf"
+  },
+  "../assets/fonts/Inter/Inter-Regular.ttf": {
+    "file": "assets/Inter-Regular-1041a8cf.ttf",
+    "src": "../assets/fonts/Inter/Inter-Regular.ttf"
+  },
+  "../assets/images/about.png": {
+    "file": "assets/about-7d23971b.png",
+    "src": "../assets/images/about.png"
+  },
+  "entrypoints/application.css": {
+    "file": "assets/application-4821dc0d.css",
+    "isEntry": true,
+    "src": "entrypoints/application.css"
+  },
+  "entrypoints/index.jsx": {
+    "file": "assets/index-96ba99a3.js",
+    "isEntry": true,
+    "src": "entrypoints/index.jsx"
+  }
+}

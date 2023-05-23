@@ -41,7 +41,7 @@ const Event = () => {
               spy={true}
               smooth={true}
               duration={500}
-              className='flex justify-center mb-2 text-white h2'
+              className='flex justify-center mb-5 text-white h2'
             >Back to top</Link>
           </motion.div>
         </div>
